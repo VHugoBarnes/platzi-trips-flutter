@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'description_place.dart';
-import 'review_list.dart';
-import 'gradient_back.dart';
-import 'header_appbar.dart';
+import 'platzi_trips.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,21 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         // primarySwatch: Colors.red,
       ),
-      home: Scaffold(
-        body: Stack(
-          children: <Widget>[
-            ListView(
-              children: <Widget>[
-                DescriptionPlace("Duwili Ella" , desc1),
-                ReviewList()
-              ],
-            ),
-              HeaderAppBar(),
-          ],
-        )
-        // DescriptionPlace("Duwili Ella", 2 , desc1),
-              // ReviewList(),
-      )
+      home: PlatziTrips()
       
     );
   }

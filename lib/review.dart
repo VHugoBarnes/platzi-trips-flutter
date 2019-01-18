@@ -82,7 +82,7 @@ class Review extends StatelessWidget {
             ),
             width: 80.0,
             height: 80.0,
-
+  
             decoration: BoxDecoration(
                 shape: BoxShape.circle,
                 image: DecorationImage(
