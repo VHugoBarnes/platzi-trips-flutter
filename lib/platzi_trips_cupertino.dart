@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 import 'home_trips.dart';
 import 'search_trips.dart';
-import 'profile_trips.dart';
+import 'profile/profile_trips.dart';
 
 class PlatziTripsCupertino extends StatelessWidget{
 
@@ -37,10 +37,10 @@ class PlatziTripsCupertino extends StatelessWidget{
               return CupertinoTabView(
                 builder: (BuildContext context) => SearchTrips(),
               );
-              break;
+              break; 
             case 2:
               return CupertinoTabView(
-                builder: (BuildContext context) => ProfileTrips(),
+                builder: (BuildContext context) => ProfileTrips("assets/img/person3.jpg"),
               );
               break;
 

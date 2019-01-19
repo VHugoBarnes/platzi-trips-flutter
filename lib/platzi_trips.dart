@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:Platzi_Trips/home_trips.dart';
 import 'search_trips.dart';
-import 'profile_trips.dart';
+// import 'profile_trips.dart';
 
 class PlatziTrips extends StatefulWidget{
   
@@ -19,7 +19,7 @@ class _PlatziTrips extends State<PlatziTrips>{
     final List<Widget> widgetChildren = [
       HomeTrips(),
       SearchTrips(),
-      ProfileTrips()
+      // ProfileTrips()
     ];
 
     void onTapTapped(int index){
