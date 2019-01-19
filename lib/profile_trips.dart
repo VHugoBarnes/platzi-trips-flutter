@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'background.dart';
+import 'profile/background.dart';
 import 'profile_content.dart';
 
 class ProfileTrips extends StatelessWidget{
