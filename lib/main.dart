@@ -2,19 +2,47 @@ import 'package:flutter/material.dart';
 import 'platzi_trips.dart';
 import 'platzi_trips_cupertino.dart';
 
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-
-  String desc1 = "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.";
+  
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Platzi Trips',
       theme: ThemeData(
-        // primarySwatch: Colors.red,
+        primarySwatch: Colors.pink,
       ),
-      home: PlatziTripsCupertino()
-      
+      home: Scaffold(
+          appBar: AppBar(
+            leading: Icon(Icons.arrow_back),
+            title: Text("Share", textAlign: TextAlign.center),
+          ),
+
+          body: Center(
+              child: Stack(
+                children: <Widget>[
+                  Image.network("https://www.setaswall.com/wp-content/uploads/2017/04/Material-Wallpaper-4-1920x1080-768x432.png",
+                  fit: BoxFit.fill,
+                  height: double.maxFinite,
+                  ),
+                  Center(
+                    child: Container(
+                      height: 70.0,
+                      color: Colors.black45,
+                      child: Center(
+                        child: Text(
+                          "XD",
+                          style: TextStyle(fontSize: 24, color: Colors.white),
+                        ),
+                      ),
+                  ),
+                  )
+                ],
+              ),
+          ),
+
+      ) 
     );
   }
-}
+} 
