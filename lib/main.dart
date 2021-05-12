@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'platzi_trips.dart';
+import 'platzi_trips_cupertino.dart';
 
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
+  
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Platzi Trips',
@@ -38,10 +41,6 @@ class MyApp extends StatelessWidget {
                 ],
               ),
           ),
-
-        //   bottomNavigationBar: ,
-        //   floatingActionButton: ,
-        //   floatingActionButtonLocation: ,
 
       ) 
     );

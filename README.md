@@ -1,16 +1,14 @@
-# platzi_trips
+# Platzi Trips
 
-My first Flutter Aplication
+This is my first application learning Flutter.
 
-## Getting Started
+This project is imparted by @anncode (Anahí Salgado) in Platzi.com 💚
 
-This project is a starting point for a Flutter application.
+The design was created by  Pathum Tzoo ![Design link](https://www.uplabs.com/posts/ui7-kit)
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Here you have some screenshots of the application
+![](https://raw.githubusercontent.com/VHugoBarnes/platzi_trips/master/Screenshot_2019-01-17-23-22-00-372_com.vhugobarnes.platzitrips.png)
+![](https://raw.githubusercontent.com/VHugoBarnes/platzi_trips/master/Screenshot_2019-01-19-00-13-27-577_com.vhugobarnes.platzitrips.png)
+ 
